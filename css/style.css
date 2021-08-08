@@ -47,8 +47,6 @@
 /* タブレット表示時 */
 @media (max-width: 1024px) {
 
-}
-
 .inner {
   width: 90%;
   margin: 0 auto;
@@ -65,5 +63,22 @@
 }
 .card__summary {
   font-size: 16px;
+}
+}
+
+/* スマホ表示時 */
+@media (max-width: 599px) {
+.page-heading {
+    font-size: 20px;
+}
+.card {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.card__title {
+    font-size: 18px;
+  }
+.card__summary {
+  font-size: 14px;
 }
 }
